@@ -1,1 +1,1 @@
-# developingDataProducts
+This small app tracks your weekly expenses.In particular, it asks you for your weekly budget and your daily expenses. In return, it tells you the total amount you have spent and the remaining balance for the week.
