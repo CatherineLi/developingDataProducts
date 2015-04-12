@@ -1,0 +1,7 @@
+Documentation for ExpenseManager
+Catherine Li
+April 11th 2015
+
+This app is very intuitive. It tracks your everyday expenses and makes sure they do not exceed your WEEKLY budget. 
+It asks you for your weekly budget and your daily expenses for the selected week. In return, it tells you the 
+total amount you have spent and the remaining balance for the week. 
