@@ -4,7 +4,7 @@ shinyUI(
         headerPanel("Weekly Expense Manager"),
         sidebarPanel(
                 dateInput("date","week of"),
-                numericInput('budget', 'Enter weekly budget in dollars',0),
+                numericInput('budget', 'Enter weekly budget in dollars',500),
                 numericInput('expense1', 'Enter Monday expenses in dollars',0), 
                 numericInput('expense2', 'Enter Tuesday expenses in dollars',0),
                 numericInput('expense3', 'Enter Wednesday expenses in dollars',0),
@@ -24,8 +24,9 @@ shinyUI(
                 h5('You have spent a total amout of'), 
                 verbatimTextOutput("ototal"),
                 h5('The remaining balance for the week'),
-                verbatimTextOutput("balance")
-                
+                verbatimTextOutput("balance"),
+                h5('This is the pie chart'),
+                plotOutput('pieChart')               
                                                 
                 )
         
